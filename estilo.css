@@ -11,6 +11,9 @@ li {
     list-style: none;
     margin: 5px 10px;
 }
+.texto-center {
+    text-align: center;
+}
 .flex {
     display: flex;
     align-items: center;
@@ -28,6 +31,15 @@ li {
     padding: 5px;
     margin: 40px auto;
 }
+.container-two {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 40px auto;
+}
+
 .flex-coluna {
     display: flex;
     flex-direction: column;
@@ -65,7 +77,7 @@ h3 {
     max-width: 1050px;
     padding-top: 20px;
 }
-img{
+img {
     margin: 0px 30px;
 }
 #servicos {
@@ -93,6 +105,45 @@ input {
     border-radius: 5px;
     border: none;
 }
-h2{
-    color:rgb(116, 116, 116)
+h2 {
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+}
+h1 {
+    font-size: 40px;
+    color: rgb(116, 116, 116);
+}
+#precos{
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 70px;
+}
+.box {
+    background-color: rgb(34, 64, 112);
+    width: 350px;
+    color: #fff;
+    border-radius: 18px;
+    padding: 15px 5px;
+    margin: 0px 10px;
+}
+.titulo-box {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0px 10px 20px;
+}
+.btn-secundary {
+    background-color: rgb(46, 126, 255);
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 55px;
+}
+.btn-secundary:hover{
+    background-color: darkblue;
+}
+.center {
+    margin: 20px auto;
+    text-align: center;
+}
+.texto-esquerdo {
+    text-align: left;
 }
