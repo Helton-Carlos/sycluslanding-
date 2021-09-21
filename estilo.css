@@ -72,6 +72,7 @@ p {
 h3 {
     color: rgb(46, 126, 255);
     font-size: 50px;
+    padding-bottom: 30px;
 }
 .top {
     max-width: 1050px;
@@ -91,10 +92,11 @@ img {
 }
 form {
     width: 450px;
-    padding: 20px ;
+    padding: 20px;
+    margin-bottom: 20px;
     background-color: rgb(214, 214, 214);
     box-shadow: rgb(116, 116, 116);
-    margin:0px 20px
+    margin: 0px 20px 50px 50px;
 }
 label {
     padding-top: 10px;
@@ -115,14 +117,14 @@ h1 {
     font-size: 40px;
     color: rgb(116, 116, 116);
 }
-#precos{
+#precos {
     background-color: cornflowerblue;
     width: 100%;
     padding: 70px;
     margin: 50px 0;
 }
 .box {
-    background-color: rgb(34, 64, 112);
+    background-color: rgb(70, 116, 190);
     width: 300px;
     color: #fff;
     border-radius: 18px;
@@ -140,23 +142,41 @@ h1 {
     color: #fff;
     border-radius: 55px;
 }
-.btn-secundary:hover{
+.btn-secundary:hover {
     background-color: darkblue;
 }
 .center {
     margin: 20px auto;
     text-align: center;
 }
-.marcacao-left{
+.marcacao-left {
     max-width: 80%;
     padding-top: 20px;
     text-align: left;
 }
-.marcacao-right{
+.marcacao-right {
     max-width: 80%;
     padding-top: 20px;
-    text-align:right;
+    text-align: right;
 }
 .texto-esquerdo {
     text-align: left;
 }
+.rodape {
+    background-color: rgb(46, 126, 255);
+    width: 100%;
+    color: #fff;
+    padding-top: 15px;
+}
+.fundo {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+.endereco {
+    font-size: 18px;
+    color: #fff;
+    max-width: 300px;
+}
+.white{color: #fff;}
