@@ -20,15 +20,27 @@
             <a href="#inicio"> <img src="img/syclus-logo.svg" alt="Syclus"></a>
         </div>
         <nav class="flex">
-            <ul class="flex">
+            <ul class="flex desktop">
                 <li><a href="#inicio" class="name">Inicio</a></li>
                 <li><a href="#servicos" class="name">Nossos serviços</a></li>
                 <li><a href="#solucao" class="name">Solução</a></li>
                 <li><a href="#precos" class="name">Preços</a></li>
                 <li><a href="#" class="name">Sobre nós</a></li>
-            </ul>
-            <div>
                 <a href="#" class="btn-secundary">Downloads</a>
+            </ul>
+
+        </nav>
+        <nav class="mobile">
+            <img src="img/Menu.svg" alt="menu">
+            <ul class="mobile-conteudo">
+                <li><a href="#inicio" class="name">Inicio</a></li>
+                <li><a href="#servicos" class="name">Nossos serviços</a></li>
+                <li><a href="#solucao" class="name">Solução</a></li>
+                <li><a href="#precos" class="name">Preços</a></li>
+                <li><a href="#" class="name">Sobre nós</a></li>
+                <li><a href="#" class="name">Download</a></li>
+            </ul>
+
         </nav>
     </header>
     <main>
@@ -39,14 +51,12 @@
                 </h3>
                 <p>Gestão empresarial eficiente e completa. </p>
             </div>
-            <div class="blue-background">
-                <img src="img/erp.svg" alt="erp">
-            </div>
+            <img class="main-img" src="img/erp.svg" alt="erp">
         </div>
 
     </main>
     <section id="servicos">
-        <div class="container-two flex-container texto-center">
+        <div class="container-two flex-container texto-center mobile-coluna">
             <div class="flex-coluna">
                 <h1>+2.000 mil</h1>
                 <p class="name-p">lojas ativas</p>
@@ -63,14 +73,14 @@
     </section>
     <section class="container flex-coluna" id="solucao">
         <h3>Solução</h3>
-        <div class="flex-container marcacao-left">
+        <div class="flex-container marcacao-left  mobile-coluna">
             <p>Com o sistema ERP é possível controlar estoques, controlar vendas, emitir boletos, realizar a emissão de
                 notas fiscais e relatórios, além de melhorar o armazenamento de informações de uma empresa, auxiliar na
                 economia de tempo e recursos, refletindo na melhora de produtividade dos colaboradores.</p>
             <img src="img/seguranca.svg" alt="segurança">
         </div>
-        <div class="flex-container marcacao-right">
-            <img src="img/XML.svg" alt="segurança">
+        <div class="flex-container marcacao-right  mobile-coluna">
+            <img class="main-img" src="img/XML.svg" alt="segurança">
             <p>NF-e, NFC-e, NFS-e, importação de notas fiscais por arquivo XML e busca de arquivos XML.
                 Arquivos digitais das escriturações fiscal e contábil de movimentações de entradas e saídas da sua
                 empresa.
@@ -78,7 +88,7 @@
         </div>
     </section>
 
-    <section id="precos" class="container-two">
+    <section id="precos" class="container-two  mobile-coluna">
         <div class="box ">
             <h2 class="titulo-box">Plano Básico</h2>
             <ul class="texto-esquerdo">
@@ -127,8 +137,8 @@
     </section>
 
     <section>
-        <div class="container top flex">
-            <div class="flex-coluna ">
+        <div class="container top flex mobile-coluna">
+            <div class="flex-coluna">
                 <h3>Empresa</h3>
                 <p>Fundada em 2009, a Syclus Informática atua no mercado de software de gestão empresarial para pequenas
                     e médias empresas, oferecendo sistemas completos que abrangem desde a automação de operações, até
@@ -147,7 +157,7 @@
         </div>
     </section>
     <footer class="rodape">
-        <div class="container">
+        <div class="mobile-coluna container-one ">
             <div>
                 <h4>Onde estamos?</h4>
                 <p class="endereco">Av. Comendador Gustavo Paiva, 2789 - Norcon Empresarial - Sala 904 - Mangabeiras,
@@ -155,14 +165,14 @@
             </div>
 
             <div>
-                <h4>Contatos</h4>
+                <h4>Contatos:</h4>
                 <p class="endereco">contato@syclus.com.br</p>
                 <p class="endereco">(82) 3311-0632</p>
                 <p class="endereco">(82) 9 9982-0209</p>
                 <p class="endereco">(82) 9 9917-7383</p>
             </div>
 
-            <div class="flex">
+            <div class="flex rede-social">
                 <img src="img/facebook.svg" alt="facebook" />
                 <img src="img/gmail.svg" alt="gmail" />
                 <img src="img/twitter.svg" alt="twitter" />

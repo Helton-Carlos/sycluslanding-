@@ -31,13 +31,23 @@ li {
     padding: 5px;
     margin: 40px auto;
 }
-
+.container-one {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px;
+}
 .container-two {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 40px auto;
+}
+.mobile,
+.mobile-conteudo {
+    display: none;
 }
 
 .flex-coluna {
@@ -72,8 +82,9 @@ p {
 h3 {
     color: rgb(46, 126, 255);
     font-size: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
+
 .top {
     max-width: 1050px;
     padding-top: 20px;
@@ -179,4 +190,43 @@ h1 {
     color: #fff;
     max-width: 300px;
 }
-.white{color: #fff;}
+.white {
+    color: #fff;
+}
+@media (max-width: 920px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
+    .main-img {
+        display: none;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    #servicos {
+        padding: 5px 0;
+    }
+    .mobile-coluna {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    form {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .marcacao-right {
+        text-align: left;
+    }
+    .box {
+        margin: 10px 0;
+    }
+    .container-one,h4, .endereco {
+        text-align:left;
+        padding-left:5px;
+    }
+    .rede-social{margin-top: 20px; }
+}
